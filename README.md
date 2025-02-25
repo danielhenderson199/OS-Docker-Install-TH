@@ -18,6 +18,7 @@ mkdir cloudpc && cd cloudpc
 wget -O windows.yml https://raw.githubusercontent.com/VLqL069/Win10/7a57fa82a99c1cf3cfaeed17a629d0856061692e/windows.yml
 ```
 สามารถเลือกเวอร์ชั่น [Windows](https://github.com/dockur/windows/) ตามต้องการ
+
 ใส่คำสั่งเพื่อเริ่มการทำงาน
 ```js
 sudo docker-compose -f windows.yml up
