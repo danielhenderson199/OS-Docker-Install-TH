@@ -19,9 +19,10 @@ sudo docker-compose -f windows.yml up
 สามารถเลือกเวอร์ชั่น [Windows](https://github.com/dockur/windows/?tab=readme-ov-file#how-do-i-select-the-windows-version) ตามต้องการระหว่างติดตั้งครั้งแรก
 
 # ข้อเตือนสำคัญ
-หากทำการปิดการเชื่อมต่อจาก Codespaces โดยไม่ได้ปิด Windows หรือการ Shut Down โดยตรง ส่งผลให้คอนเทนเนอร์เสียหาย จำเป็นต้อง Rebuild ใหม่ (ข้อมูลหาย) ถ้าปิดภายใน Windows ถูกวิธีเพื่อให้คอนเทนเนอร์ทำงานเสร็จสิ้น ที่สำคัญอย่าลืมหยุดงาน GitHub Codespaces ตลอด เพื่อไม่เกินจำนวนโควต้า สามารถตรวจสอบ[โควต้า](https://github.com/settings/billing/summary)ได้ที่นี่
+อย่าลืมหยุดงาน GitHub Codespaces ตลอดเพื่อไม่เกินจำนวนโควต้า
+สามารถตรวจสอบ[โควต้า](https://github.com/settings/billing/summary)ได้ที่นี่
 
-การกลับมาใช้งานใหม่ให้พิมพ์คำสั่ง
+# การกลับมาใช้งานใหม่ในคำสั่ง
 ```js
 cd cloudpc && sudo docker-compose -f windows.yml start
 ```
