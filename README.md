@@ -17,7 +17,7 @@ mkdir cloudpc && cd cloudpc
 ```js
 wget -O windows.yml https://raw.githubusercontent.com/MCFirsting/Windows-Docker-Install-TH/refs/heads/main/windows.yml
 ```
-สามารถเลือกเวอร์ชั่น [Windows](https://github.com/dockur/windows/) ตามต้องการ
+สามารถเลือกเวอร์ชั่น [Windows](https://github.com/dockur/windows/?tab=readme-ov-file#how-do-i-select-the-windows-version) ตามต้องการ
 
 ใส่คำสั่งเพื่อเริ่มการทำงาน
 ```js
