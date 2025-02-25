@@ -14,7 +14,7 @@ sudo docker-compose -f windows.yml up
 ถ้าสังเกตว่ามีอยู่สองพอร์ต แนะนำไปที่พอร์ต 8006 เพื่อดูระหว่างการติดตั้ง Windows
 
 หากเข้าการใช้งานได้แต่ประสิทธิภาพไม่ลื่นบนมือถือ
-แนะนำติดตั้งโปรแกรม Anydesk ได้ทั้งมือถือและคอม
+แนะนำติดตั้งโปรแกรม AnyDesk ได้ทั้งมือถือและคอม
 
 สามารถเลือกเวอร์ชั่น [Windows](https://github.com/dockur/windows/?tab=readme-ov-file#how-do-i-select-the-windows-version) ตามต้องการระหว่างติดตั้งครั้งแรก
 
