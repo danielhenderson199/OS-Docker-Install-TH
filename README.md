@@ -3,10 +3,11 @@ Docker เป็นแพลตฟอร์มที่ใช้สำหรั�
 
 ขั้นตอนติดตั้งผ่านคำสั่ง
 ```js
-sudo apt update && \
-sudo apt install -y docker.io docker-compose && \
-mkdir cloudpc && cd cloudpc && \
-wget -O windows.yml https://raw.githubusercontent.com/MCFirsting/Windows-Docker-Install-TH/main/windows.yml && \
+sudo su
+sudo apt update
+sudo apt install -y docker.io docker-compose
+mkdir cloudpc && cd cloudpc
+wget -O windows.yml https://raw.githubusercontent.com/MCFirsting/Windows-Docker-Install-TH/main/windows.yml
 sudo docker-compose -f windows.yml up
 ```
 เมื่อทำงานจะเชื่อมต่อเซิร์ฟเวอร์ลิ้งค์
