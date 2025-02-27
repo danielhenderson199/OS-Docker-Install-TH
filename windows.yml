@@ -7,7 +7,7 @@ services:
       USERNAME: "CloudPC"
       PASSWORD: "cloud@123"
       RAM_SIZE: "4G"
-      CPU_CORES: "4"
+      CPU_CORES: "2"
       DISK_SIZE: "30G"
     devices:
       - /dev/kvm
