@@ -6,7 +6,7 @@ services:
       VERSION: "10"
       USERNAME: "CloudPC"
       PASSWORD: "cloud@123"
-      RAM_SIZE: "8G"
+      RAM_SIZE: "4G"
       CPU_CORES: "4"
       DISK_SIZE: "30G"
     devices:
