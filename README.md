@@ -18,7 +18,7 @@ sudo docker-compose -f windows.yml up
 
 สามารถเลือกเวอร์ชั่น [Windows](https://github.com/dockur/windows/?tab=readme-ov-file#how-do-i-select-the-windows-version) ตามต้องการระหว่างติดตั้งครั้งแรก โดยค่าตั้งต้นจะเป็น Windows 10 Enterprise LTSC รุ่นนี้เหมาะสำหรับการประหยัดทรัพยากรหรือโปรแกรมที่ไม่จำเป็นเมื่อติดตั้ง Windows
 
-# ข้อเตือนสำคัญ
+# เรื่องสำคัญ
 อย่าลืมหยุดงาน GitHub Codespaces ตลอดเพื่อไม่เกินจำนวนโควต้า
 สามารถตรวจสอบ[โควต้า](https://github.com/settings/billing/summary)ได้ที่นี่
 
