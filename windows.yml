@@ -27,3 +27,11 @@ services:
       - windows_main_data:/data
       - windows_extra_data:/extra
     stop_grace_period: 2m
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '1.0'
+        reservations:
+          memory: 1G
+          cpus: '0.5'
