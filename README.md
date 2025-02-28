@@ -16,7 +16,7 @@ sudo docker-compose -f windows.yml up
 หากเข้าการใช้งานได้แต่ประสิทธิภาพไม่ลื่นบนมือถือ
 แนะนำติดตั้งโปรแกรม AnyDesk ได้ทั้งมือถือและคอม
 
-สามารถเลือกเวอร์ชั่น [Windows](https://github.com/dockur/windows/?tab=readme-ov-file#how-do-i-select-the-windows-version) ตามต้องการระหว่างติดตั้งครั้งแรก โดยค่าตั้งต้นจะเป็น Windows 10 LTSC รุ่นนี้เหมาะสำหรับการประหยัดทรัพยากรหรือโปรแกรมที่ไม่จำเป็นเมื่อติดตั้ง Windows
+สามารถเลือกเวอร์ชั่น [Windows](https://github.com/dockur/windows/?tab=readme-ov-file#how-do-i-select-the-windows-version) ตามต้องการระหว่างติดตั้งครั้งแรก โดยค่าตั้งต้นจะเป็น Windows 10 Enterprise LTSC รุ่นนี้เหมาะสำหรับการประหยัดทรัพยากรหรือโปรแกรมที่ไม่จำเป็นเมื่อติดตั้ง Windows
 
 # ข้อเตือนสำคัญ
 อย่าลืมหยุดงาน GitHub Codespaces ตลอดเพื่อไม่เกินจำนวนโควต้า
