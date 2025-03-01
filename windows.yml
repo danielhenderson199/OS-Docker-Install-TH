@@ -1,7 +1,3 @@
-volumes:
-  windows_main_data:
-  windows_extra_data:
-
 services:
   windows:
     image: dockurr/windows
