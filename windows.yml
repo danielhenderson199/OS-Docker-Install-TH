@@ -7,7 +7,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "xp"
+      VERSION: "10l"
       USERNAME: "User"
       PASSWORD: "user@123"
       RAM_SIZE: "4G"
