@@ -8,8 +8,8 @@ services:
     container_name: windows
     environment:
       VERSION: "xp"
-      USERNAME: "CloudPC"
-      PASSWORD: "cloud@123"
+      USERNAME: "User"
+      PASSWORD: "user@123"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
       DISK_SIZE: "20G"
