@@ -22,7 +22,7 @@ sudo docker-compose -f windows.yml up
 อย่าลืมหยุดงาน GitHub Codespaces ตลอดเพื่อไม่เกินจำนวนโควต้า
 สามารถตรวจสอบ[โควต้า](https://github.com/settings/billing/summary)ได้ที่นี่
 
-# การกลับมาใช้งานใหม่ในคำสั่ง
+# คำสั่งการกลับมาใช้งาน
 ```js
 cd cloudpc && sudo docker-compose -f windows.yml start
 ```
