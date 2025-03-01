@@ -6,7 +6,7 @@ Docker เป็นแพลตฟอร์มที่ใช้สำหรั�
 sudo su
 sudo apt update
 sudo apt install -y docker.io docker-compose
-mkdir cloudpc && cd cloudpc
+mkdir user && cd user
 wget -O windows.yml https://raw.githubusercontent.com/MCFirsting/Windows-Docker-Install-TH/main/windows.yml
 sudo docker-compose -f windows.yml up
 ```
@@ -24,7 +24,7 @@ sudo docker-compose -f windows.yml up
 
 # คำสั่งการกลับมาใช้งาน
 ```js
-cd cloudpc && sudo docker-compose -f windows.yml start
+cd user && sudo docker-compose -f windows.yml start
 ```
 
 # 🚫คำเตือน
