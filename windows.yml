@@ -11,8 +11,8 @@ services:
       DISK_SIZE: "20G"
       DISK2_SIZE: "2G"
     devices:
-      - /dev/kvm
-      - /dev/net/tun
+      - /dev/sdb:/disk1
+      - /dev/sdc:/disk2
     cap_add:
       - NET_ADMIN
     ports:
