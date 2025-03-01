@@ -34,10 +34,13 @@ environment:
 # เรื่องสำคัญ
 อย่าลืมหยุดงาน GitHub Codespaces ตลอดเพื่อไม่เกินจำนวนโควต้า
 สามารถตรวจสอบ[โควต้า](https://github.com/settings/billing/summary)ได้ที่นี่
-
-# คำสั่งการกลับมาใช้งาน
+หากต้องการลับมาใช้งานไหม่ให้ใช้คำสั่ง
 ```js
 cd user && sudo docker-compose -f windows.yml start
+```
+หากเกิดข้อผิดพลาดกระทันหันระหว่างใช้งานไห้ใช้คำสั่งเพื่อหยุดการทำงาน
+```js
+sudo docker-compose -f windows.yml stop
 ```
 
 # 🚫คำเตือน
