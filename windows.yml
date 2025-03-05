@@ -9,7 +9,6 @@ services:
     environment:
       VERSION: "10l"
       USERNAME: "User"
-      PASSWORD: "user@123"
       RAM_SIZE: "4G"
       CPU_CORES: "2"
       DISK_SIZE: "20G"
