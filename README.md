@@ -26,7 +26,8 @@ sudo docker-compose -f windows.yml up
 สามารถเลือกเวอร์ชั่น [Windows](https://github.com/dockur/windows/?tab=readme-ov-file#how-do-i-select-the-windows-version) ตามต้องการระหว่างติดตั้งครั้งแรก โดยค่าตั้งต้นจะเป็น Windows 10 Enterprise LTSC รุ่นนี้เหมาะสำหรับการประหยัดทรัพยากรหรือโปรแกรมที่ไม่จำเป็นเมื่อติดตั้ง Windows หากต้องการติดตั้งไฟล์ ISO ที่กำหนดเองสามารถใส่ลิ้งค์โหลดโดยตรงได้
 
 นี่คือตัวอย่างการนำไฟล์จาก Tiny10
-```js
+
+```
 environment:
   VERSION: "https://archive.org/download/tiny-10-23-h2/tiny10%20x64%2023h2.iso"
 ```
