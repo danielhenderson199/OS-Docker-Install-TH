@@ -29,7 +29,7 @@ sudo docker-compose -f windows.yml up
 
 ```
 environment:
-  VERSION: "https://archive.org/download/tiny-10-NTDEV/tiny10%20x64%20beta%202.iso"
+  VERSION: "https://archive.org/download/tiny-10_202301/tiny10%2023h1%20x64.iso"
 ```
 
 # เรื่องสำคัญ
