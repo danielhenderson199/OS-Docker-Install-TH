@@ -24,7 +24,7 @@ sudo apt update
 sudo apt install -y docker.io docker-compose
 mkdir user && cd user
 wget -O macos.yml https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install-TH/refs/heads/main/macos.yml
-sudo docker-compose -f windows.yml up
+sudo docker-compose -f macos.yml up
 ```
 เมื่อทำงานจะเชื่อมต่อเซิร์ฟเวอร์ลิ้งค์ที่แสดงพอร์ตให้เราเข้าไป
 ถ้าสังเกตว่ามีอยู่สองพอร์ต แนะนำไปที่พอร์ต 8006 เพื่อดูระหว่างการติดตั้ง Windows
