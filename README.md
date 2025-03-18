@@ -37,7 +37,14 @@ sudo docker-compose -f macos.yml up
 นี่คือตัวอย่างการนำไฟล์จาก Tiny10
 ```
 environment:
-  VERSION: "https://archive.org/download/tiny-10_202301/tiny10%2023h1%20x64.iso"
+      VERSION: "https://archive.org/download/tiny-10_202301/tiny10%2023h1%20x64.iso"
+```
+แต่​จะมี​ข้อ​เสีย​ในบาง​ ISO จะ​ส่งผลทำ​ไห้​คอนเทนเนอร์​พังได้​ ​เกิด​จาก​การใช้​ทรัพยากรเกินกำหนด​ แนะนำ​สำหรับ​ Tiny10/11 ต้อง​ปรับ​ค่าแบบนั้​
+```
+RAM_SIZE: "4G"
+CPU_CORES: "2"
+DISK_SIZE: "30G"
+DISK2_SIZE: "2G"
 ```
 
 # เรื่องสำคัญ
