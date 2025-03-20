@@ -10,18 +10,12 @@ Docker เป็นแพลตฟอร์มที่ใช้สำหรั�
 
 # ขั้นตอนติดตั้งผ่านคำสั่ง (Windows)
 ```js
-sudo su
-sudo apt update
-sudo apt install -y docker.io docker-compose
 mkdir user && cd user
 wget -O windows.yml https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install-TH/refs/heads/main/windows.yml
 sudo docker-compose -f windows.yml up
 ```
 # ขั้นตอนติดตั้งผ่านคำสั่ง (MacOS)
 ```js
-sudo su
-sudo apt update
-sudo apt install -y docker.io docker-compose
 mkdir user && cd user
 wget -O macos.yml https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install-TH/refs/heads/main/macos.yml
 sudo docker-compose -f macos.yml up
