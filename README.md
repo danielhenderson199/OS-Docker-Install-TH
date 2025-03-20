@@ -5,13 +5,13 @@ Docker เป็นแพลตฟอร์มที่ใช้สำหรั�
 วิธีนี้จะข้ามขั้นตอนใช้คำสั่งในการติดตั้งโดยอัตโนมัติ​ค่าเริ่มต้นจะเป็น Tiny10 และจะไม่สามารถเปลี่ยนเวอร์ชั่นระบบปฏิบัติการ​ OS​ ภายหลังได้​ [ทดลองตอนนี้](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=938533072&ref=main&devcontainer_path=.devcontainer.json) ระหว่างนั้นให้รอจนกว่าจะมี​พอร์ต 8006​ พร้อมเข้าใช้งานในส่วน Terminal
 
 # ขั้นตอนติดตั้งผ่านคำสั่ง
-Windows
+ - Windows
 ```js
 mkdir user && cd user
 wget -O windows.yml https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install-TH/refs/heads/main/windows.yml
 sudo docker-compose -f windows.yml up
 ```
-MacOS
+ - MacOS
 ```js
 mkdir user && cd user
 wget -O macos.yml https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install-TH/refs/heads/main/macos.yml
@@ -22,7 +22,7 @@ sudo docker-compose -f macos.yml up
 
 สามารถเลือกเวอร์ชั่น [Windows](https://github.com/dockur/windows/?tab=readme-ov-file#how-do-i-select-the-windows-version) และ [MacOS](https://github.com/dockur/macos?tab=readme-ov-file#how-do-i-select-the-macos-version) ตามต้องการระหว่างติดตั้งครั้งแรก หากต้องการติดตั้งไฟล์ ISO ที่กำหนดเองสามารถใส่ลิ้งค์โหลดโดยตรงได้ แต่จะใช้เวลาการดาวน์โหลดขึ้นอยู่กับไฟล์ ISO
 
-นี่คือตัวอย่างการนำไฟล์จาก Tiny10
+ - นี่คือตัวอย่างการนำไฟล์จาก Tiny10
 ```
 environment:
       VERSION: "https://archive.org/download/tiny-10_202301/tiny10%2023h1%20x64.iso"
@@ -41,11 +41,11 @@ DISK2_SIZE: "2G"
 
 หากต้องการลับมาใช้งานไหม่ให้ใช้คำสั่ง
 
-Windows
+ - Windows
 ```js
 cd user && sudo docker-compose -f windows.yml start
 ```
-MacOS
+ - MacOS
 ```js
 cd user && sudo docker-compose -f macos.yml start
 ```
@@ -53,11 +53,11 @@ cd user && sudo docker-compose -f macos.yml start
 
 หากเกิดข้อผิดพลาดกระทันหันระหว่างใช้งานไห้ใช้คำสั่งเพื่อหยุดการทำงาน
 
-Windows
+ - Windows
 ```js
 sudo docker-compose -f windows.yml stop
 ```
-MacOS
+ - MacOS
 ```js
 sudo docker-compose -f macos.yml stop
 ```
