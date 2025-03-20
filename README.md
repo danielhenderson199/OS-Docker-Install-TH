@@ -22,7 +22,7 @@ wget -O macos.yml https://raw.githubusercontent.com/MCFirsting/OS-Docker-Install
 sudo docker-compose -f macos.yml up
 ```
 เมื่อทำงานจะเชื่อมต่อเซิร์ฟเวอร์ลิ้งค์ที่แสดงพอร์ตให้เราเข้าไป​ ถ้าสังเกตว่ามีอยู่สองพอร์ต แนะนำไปที่พอร์ต 8006 เพื่อดูระหว่างการติดตั้ง​ หากเข้าการใช้งานได้แต่ประสิทธิภาพไม่ลื่นบนมือถือ
-แนะนำติดตั้งโปรแกรม​​ AnyDesk ได้ทั้งมือถือและคอม
+แนะนำติดตั้งโปรแกรม​​ Remote​ Dasktop​​ ได้ทั้งมือถือและคอม
 
 สามารถเลือกเวอร์ชั่น [Windows](https://github.com/dockur/windows/?tab=readme-ov-file#how-do-i-select-the-windows-version) และ [MacOS](https://github.com/dockur/macos?tab=readme-ov-file#how-do-i-select-the-macos-version) ตามต้องการระหว่างติดตั้งครั้งแรก หากต้องการติดตั้งไฟล์ ISO ที่กำหนดเองสามารถใส่ลิ้งค์โหลดโดยตรงได้ แต่จะใช้เวลาการดาวน์โหลดขึ้นอยู่กับไฟล์ ISO
 
@@ -31,7 +31,7 @@ sudo docker-compose -f macos.yml up
 environment:
       VERSION: "https://archive.org/download/tiny-10_202301/tiny10%2023h1%20x64.iso"
 ```
-แต่​จะมี​ข้อ​เสีย​ในบาง​ ISO จะ​ส่งผลทำ​ไห้​คอนเทนเนอร์​พังได้​ ​เกิด​จาก​การใช้​ทรัพยากรเกินกำหนด​ หากต้องการทดสอบเพิ่มพื้นที่จัดเก็บข้อมูล​แนะนำ​สำหรับ​ Tiny10/11 ต้อง​ปรับ​ค่า​แบบนี้
+แต่​ข้อ​เสีย​ในบาง​ ISO จะ​ส่งผลทำ​ไห้​คอนเทนเนอร์​พังได้​​เกิด​จาก​การใช้​ทรัพยากรเกินกำหนด​ หากต้องการทดสอบเพิ่มพื้นที่จัดเก็บข้อมูล​แนะนำ​สำหรับ​ Tiny10/11 ต้อง​ปรับ​ค่า​แบบนี้
 ```
 RAM_SIZE: "4G"
 CPU_CORES: "2"
@@ -44,19 +44,24 @@ DISK2_SIZE: "2G"
 สามารถตรวจสอบ[โควต้า](https://github.com/settings/billing/summary)ได้ที่นี่ (เป็นผลเฉพาะบัญชี Microsoft เท่านั้น)
 
 หากต้องการลับมาใช้งานไหม่ให้ใช้คำสั่ง
-# Windows
+
+Windows
 ```js
 cd user && sudo docker-compose -f windows.yml start
 ```
-หากเกิดข้อผิดพลาดกระทันหันระหว่างใช้งานไห้ใช้คำสั่งเพื่อหยุดการทำงาน
-```js
-sudo docker-compose -f windows.yml stop
-```
-# MacOS
+MacOS
 ```js
 cd user && sudo docker-compose -f macos.yml start
 ```
+
+
 หากเกิดข้อผิดพลาดกระทันหันระหว่างใช้งานไห้ใช้คำสั่งเพื่อหยุดการทำงาน
+
+Windows
+```js
+sudo docker-compose -f windows.yml stop
+```
+MacOS
 ```js
 sudo docker-compose -f macos.yml stop
 ```
