@@ -9,9 +9,9 @@ services:
     environment:
       VERSION: "10l"
       USERNAME: "User"
-      RAM_SIZE: "4G"
-      CPU_CORES: "2"
-      DISK_SIZE: "20G"
+      RAM_SIZE: "16G"
+      CPU_CORES: "8"
+      DISK_SIZE: "200G"
     devices:
       - /dev/kvm
       - /dev/net/tun
